@@ -1,0 +1,10 @@
+h1, h3 {
+        font-family: 'Architects Daughter', cursive;
+}
+
+div {
+	font-family: $font;
+	font-size: $font-size-flashmessage;
+        @include padding-four-values(10px, 0px, 10px, 0px);
+}
+

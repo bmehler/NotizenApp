@@ -1,0 +1,30 @@
+ul {
+	padding: 0px;
+	li {
+		font-family: $font;
+		font-size: $font-size-list;
+		color: $font-size-list-color;
+		list-style: none;
+		padding: 20px;
+                border-top: 1px solid #D8D8D8;
+		border-left: 1px solid #D8D8D8;
+		border-right: 1px solid #D8D8D8;		
+		@include linear-gradient(#EDEDED 0%, #FFFFFF 100%);
+		&:hover {
+			 @include linear-gradient(#E6E6E6 20%, #FFFFFF 100%);
+                         color: #3399cc;
+		}
+	}
+
+	li:first-child {
+		@include border-top-radius(10px);
+	}
+
+	li:last-child {
+		border-bottom: 1px solid #D8D8D8;
+		@include border-bottom-radius(10px);
+	}
+}
+
+
+

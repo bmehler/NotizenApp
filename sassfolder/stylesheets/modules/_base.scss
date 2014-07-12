@@ -1,0 +1,13 @@
+@import "mixins.scss";
+@import url("http://fonts.googleapis.com/css?family=Architects+Daughter");
+
+$bgcolor: white;
+$font: 'Architects Daughter', cursive;
+$font-size-list: 1.4em;
+$font-size-list-color: #585858;
+$font-size-flashmessage: 1.0em;
+
+body {
+background-color: $bgcolor;
+}
+
